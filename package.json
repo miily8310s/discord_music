@@ -11,7 +11,14 @@
     "ffmpeg-static": "^4.2.5",
     "ytdl-core": "^2.1.7"
   },
+  "scripts": {
+    "test": "jest --detectOpenHandles"
+  },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "eslint-plugin-jest": "^23.18.0",
+    "jest": "^26.1.0"
+  }
 }
